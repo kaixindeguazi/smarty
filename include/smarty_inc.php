@@ -1,4 +1,5 @@
 <?php 
+	header("Content-type:text/html;charset=utf-8");
 	include("./smarty/Smarty.class.php");
 	include("function/function.php");
 	$smarty = new Smarty();
